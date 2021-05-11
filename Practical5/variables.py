@@ -8,7 +8,8 @@ X=1
 Y=0
 Z=2
 Z=(X and not Y) or (Y and not X)
-print Z
+print(Z)
 W=2
 W=X!=Y
 Z=W
+print(Z)
