@@ -1,3 +1,4 @@
 How have new cases developed over time in Austria?
-line 26~29
-After 2020-3-12, the new cases in Austria developed rapidly. 
+line 30~34
+The new cases in Austria increased rapidly from 2020-03-09 to 2020-03-27 and decreased rapidly from 2020-03-27 to 2020-03-30. However, it was found that new cases picked up in the days that followed.
+ 

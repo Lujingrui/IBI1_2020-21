@@ -17,6 +17,7 @@ plt.boxplot(world_new_cases,
             showbox = True,
             showcaps = True,
             showfliers = True,
+            boxprops = {'color':'black','facecolor':'pink'},
             notch = False
               )
 plt.title('new cases worldwide')
@@ -29,5 +30,5 @@ plt.show()
 Austria_date = covid_data.loc[covid_data['location']=='Austria','date']
 Austria_new_cases = covid_data.loc[covid_data['location']=='Austria','new_cases']
 plt.plot(Austria_date, Austria_new_cases,'b')
-plt.title('new cases developed over time in Australia')
+plt.title('new cases developed over time in Austria')
 plt.show()
