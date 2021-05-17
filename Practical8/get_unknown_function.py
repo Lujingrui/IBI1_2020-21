@@ -12,7 +12,7 @@ for line in fhand:
     b = ''
     x = False
    if 'unknown' in line:
-     b = re.findall(r'>(.+?) cdna',line)
+     b = re.findall(r'>(.+?)_mRNA',line)
      b = b[0]
      x = True
  else:
