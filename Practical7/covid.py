@@ -7,8 +7,8 @@ covid_data.iloc[0:12:2,:]
 Afghanistan_total_cases = covid_data.loc[covid_data['location']=='Afghanistan','total_cases']
 print(Afghanistan_total_cases)
 world_new_cases = covid_data.loc[covid_data['location']=='World','new_cases']
-world_new_cases.mean()
-world_new_cases.median()
+print('mean(world new cases): ' + str(world_new_cases.mean()))
+print('median(world new cases): ' + str(world_new_cases.median()))
 plt.boxplot(world_new_cases,
             vert = True,
             whis = 1.5,
