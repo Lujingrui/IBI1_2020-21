@@ -88,9 +88,9 @@ print("The Oligosaccharide number is %s" % countOligosaccharide)
         
 # Draw the pie chart
 explode = (0, 0, 0, 0.1)
-number = (count_DNA, count_Protein, count_Oligosaccharide,count_RNA)
+number = (countDNA, countProtein, countOligosaccharide,countRNA)
 labels = ("count_DNA", "count_Protein", "count_Oligosaccharide", "count_RNA")
-colors = ("blue","pink","yellow","coral")
+colors = ("lightskyblue","pink","yellow","peachpuff")
 plt.pie(number, explode=explode,labels=labels, colors=colors, autopct='%1.1f%%', shadow=None, startangle=90)
 plt.axis('equal')
 plt.title('The proportion of the macromolecule number')
